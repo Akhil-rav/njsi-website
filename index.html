@@ -4,42 +4,98 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>New Jersey STEM Innovators</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Navigation Bar -->
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">How We Started</a>
-    <a href="apply.html">Applications</a>
-    <a href="projects.html">STEM Projects</a>
-    <a href="share.html">Share Experience</a>
-    <a href="newspaper.html">Newspaper</a>
-  </nav>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">
+        ⚛️ <span>NJ STEM Innovators</span>
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Apply</a>
+        <a href="#">Newspaper</a>
+      </nav>
+    </div>
+  </header>
 
-  <!-- Main Content -->
-  <main>
-    <h1>New Jersey STEM Innovators</h1>
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Empowering the Next Generation Through STEM Innovation</h1>
     <p>
-      The New Jersey STEM Innovators initiative is dedicated to fostering an inclusive and accessible environment where students can explore the different worlds of Science, Technology, Engineering, and Mathematics (STEM).
+      At New Jersey STEM Innovators, we believe every student deserves access to
+      cutting-edge STEM education. We connect curious minds with mentors,
+      resources, and hands-on projects that turn learning into real-world impact.
     </p>
-    <p>
-      Our mission is to introduce and define the foundations of STEM, build awareness of various career opportunities, and empower students to believe in their potential. Through engaging hands-on STEM projects and real-world applications, we aim to inspire curiosity, critical thinking, and pave clear pathways for students to thrive and succeed within the STEM fields.
-    </p>
-    <p>
-      Altogether, we are shaping a future of innovation, diversity, and limitless possibilities.
-    </p>
-  </main>
+    <div class="hero-buttons">
+      <a class="btn primary" href="#">Get Involved</a>
+      <a class="btn outline" href="#">View Projects</a>
+    </div>
+  </section>
 
-  <!-- Footer -->
-  <footer>
-    <form action="#" method="post">
-      <label for="email">Subscribe to our newsletter:</label><br />
-      <input type="email" id="email" name="email" placeholder="Enter your Gmail" required />
-      <button type="submit">Subscribe</button>
-    </form>
-    <p>&copy; 2025 New Jersey STEM Innovators</p>
+  <!-- PROJECTS -->
+  <section class="projects">
+    <h2>Our Impact Programs</h2>
+    <p class="subtitle">
+      Discover the innovative programs shaping future STEM leaders.
+    </p>
+
+    <div class="project-grid">
+      <div class="card">
+        <h3>🔬 BioTech Lab</h3>
+        <p>
+          Students explore biotechnology through genetics, microbiology,
+          and real-world research guided by mentors.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>💻 AI & Robotics</h3>
+        <p>
+          Learn machine learning and robotics through hands-on engineering
+          and intelligent systems design.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🚀 Space Engineering</h3>
+        <p>
+          Design and launch model rockets while learning aerospace engineering
+          and physics principles.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h3>NJ STEM Innovators</h3>
+        <p>
+          Stay connected with the latest STEM opportunities, programs, and events.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <p>📧 hello@njsteminnovators.org</p>
+        <p>📍 New Jersey, USA</p>
+      </div>
+    </div>
+
+    <p class="copyright">
+      © 2025 New Jersey STEM Innovators. All rights reserved.
+    </p>
   </footer>
 
 </body>
