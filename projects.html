@@ -1,40 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>STEM Projects - NJ STEM Innovators</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects – NJ STEM Innovators</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800">
-  <header class="flex justify-between items-center px-8 py-6 bg-white shadow">
-    <h1 class="text-xl font-semibold text-blue-700">NJ STEM Innovators</h1>
-    <nav class="space-x-6 text-sm">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html" class="font-semibold">Projects</a>
-      <a href="apply.html">Apply</a>
-      <a href="share.html">Share</a>
-      <a href="newspaper.html">Newspaper</a>
-    </nav>
+
+<body class="bg-white text-gray-800">
+
+  <!-- NAVBAR -->
+  <header class="border-b">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-2 font-semibold text-lg">
+        🔬 NJ STEM Innovators
+      </div>
+      <nav class="space-x-6 text-sm">
+        <a href="index.html" class="hover:text-blue-600">Home</a>
+        <a href="about.html" class="hover:text-blue-600">About</a>
+        <a href="projects.html" class="text-blue-600 font-semibold">Projects</a>
+        <a href="apply.html" class="hover:text-blue-600">Apply</a>
+        <a href="newspaper.html" class="hover:text-blue-600">Newspaper</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="max-w-6xl mx-auto py-16 px-6">
-    <h2 class="text-3xl font-bold mb-6">Our Impact Projects</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div class="bg-white p-6 rounded shadow">
-        <h3 class="text-lg font-bold">BioTech Lab</h3>
-        <p class="text-sm mt-2">Students explore genetics and environmental science through real experiments.</p>
+  <!-- HERO -->
+  <section class="text-center py-20 px-6">
+    <h1 class="text-4xl font-extrabold mb-6">
+      STEM Mini Projects
+    </h1>
+    <p class="max-w-3xl mx-auto text-gray-600 text-lg">
+      Explore hands-on STEM projects designed to inspire creativity, critical thinking, and real-world problem solving.
+    </p>
+  </section>
+
+  <!-- PROJECTS GRID -->
+  <section class="bg-gray-50 py-20">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-xl shadow p-6">
+        <h2 class="text-xl font-bold mb-2">❤️ Heart Pumper</h2>
+        <p class="text-gray-600">
+          Students learn how the human heart functions by building a mechanical pumping model that simulates blood flow.
+        </p>
       </div>
-      <div class="bg-white p-6 rounded shadow">
-        <h3 class="text-lg font-bold">AI & Robotics</h3>
-        <p class="text-sm mt-2">Learn AI, ML, and robotics by solving real-world problems in teams.</p>
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-xl shadow p-6">
+        <h2 class="text-xl font-bold mb-2">💧 Water Filtration System</h2>
+        <p class="text-gray-600">
+          A hands-on environmental science project where students design and test water filtration methods.
+        </p>
       </div>
-      <div class="bg-white p-6 rounded shadow">
-        <h3 class="text-lg font-bold">Space Engineering</h3>
-        <p class="text-sm mt-2">Launch rockets and learn aerospace principles through NASA-inspired projects.</p>
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-xl shadow p-6">
+        <h2 class="text-xl font-bold mb-2">🦾 Prosthetic Hand</h2>
+        <p class="text-gray-600">
+          Build a mechanical prosthetic hand while learning about biomechanics and engineering design.
+        </p>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-xl shadow p-6">
+        <h2 class="text-xl font-bold mb-2">🧠 Arduino Coding & Circuits</h2>
+        <p class="text-gray-600">
+          Learn electronics and coding by programming Arduino boards to control LEDs, sensors, and motors.
+        </p>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-xl shadow p-6">
+        <h2 class="text-xl font-bold mb-2">🧬 Gene Editing Simulation</h2>
+        <p class="text-gray-600">
+          A safe and educational simulation teaching the basics of genetics and CRISPR-style editing.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t py-16">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 px-6 text-sm text-gray-600">
+      <div>
+        <div class="font-semibold text-lg mb-2">NJ STEM Innovators</div>
+        <p class="mb-4">
+          Stay updated with the latest STEM opportunities, events, and success stories from our community.
+        </p>
+        <div class="flex space-x-2">
+          <input type="email" placeholder="Enter your email"
+                 class="border px-4 py-2 rounded w-full" />
+          <button class="bg-blue-600 text-white px-4 py-2 rounded">
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="font-semibold mb-2">Get In Touch</h3>
+        <p>📧 <a href="mailto:hello@njsteminnovators.org" class="hover:underline">
+          hello@njsteminnovators.org</a></p>
+        <p class="mt-2">
+          Have questions about our programs or want to get involved?
+        </p>
       </div>
     </div>
-  </main>
+
+    <div class="text-center text-xs text-gray-400 mt-10">
+      © 2025 New Jersey STEM Innovators. All rights reserved.
+    </div>
+  </footer>
+
 </body>
 </html>
-<!-- Your comment goes here -->
