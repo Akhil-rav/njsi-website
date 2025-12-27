@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NJ STEM Innovators</title>
-    <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-white text-gray-800">
@@ -73,12 +72,44 @@
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-white border-t py-10 px-4">
-      <div class="max-w-7xl mx-auto text-center text-sm text-gray-500">
-        <p>📬 Contact: <a href="mailto:hello@njsteminnovators.org" class="underline">hello@njsteminnovators.org</a></p>
-        <p>📍 New Jersey, USA</p>
-        <p class="mt-4">&copy; 2025 New Jersey STEM Innovators. All rights reserved.</p>
+    <!-- Enhanced Footer -->
+    <footer class="bg-white border-t py-16 px-4">
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 text-sm text-gray-600">
+        <!-- Left: Logo + Newsletter -->
+        <div>
+          <div class="flex items-center space-x-2 mb-2">
+            <span class="text-xl font-bold">🔬 NJ STEM Innovators</span>
+          </div>
+          <p class="mb-4">
+            Stay updated with the latest STEM opportunities, events, and success stories from our community.
+          </p>
+          <form class="flex space-x-2 max-w-md">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="w-full border px-4 py-2 rounded"
+            />
+            <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+              Subscribe
+            </button>
+          </form>
+        </div>
+
+        <!-- Right: Contact Info -->
+        <div>
+          <h3 class="text-base font-semibold mb-2">Get In Touch</h3>
+          <p class="flex items-center space-x-2 mb-2">
+            <span>📧</span>
+            <a href="mailto:hello@njsteminnovators.org" class="hover:underline">hello@njsteminnovators.org</a>
+          </p>
+          <p class="text-gray-600">
+            Have questions about our programs or want to get involved? We'd love to hear from you!
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-10 text-center text-xs text-gray-400 border-t pt-6">
+        &copy; 2025 New Jersey STEM Innovators. All rights reserved.
       </div>
     </footer>
   </body>
