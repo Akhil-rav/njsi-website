@@ -1,31 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>STEM Newspaper - NJ STEM Innovators</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newspaper – NJ STEM Innovators</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800">
-  <header class="flex justify-between items-center px-8 py-6 bg-white shadow">
-    <h1 class="text-xl font-semibold text-blue-700">NJ STEM Innovators</h1>
-    <nav class="space-x-6 text-sm">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="apply.html">Apply</a>
-      <a href="share.html">Share</a>
-      <a href="newspaper.html" class="font-semibold">Newspaper</a>
-    </nav>
+
+<body class="bg-white text-gray-800">
+
+  <!-- NAVBAR -->
+  <header class="border-b">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-2 font-semibold text-lg">
+        🔬 NJ STEM Innovators
+      </div>
+      <nav class="space-x-6 text-sm">
+        <a href="index.html" class="hover:text-blue-600">Home</a>
+        <a href="about.html" class="hover:text-blue-600">About</a>
+        <a href="projects.html" class="hover:text-blue-600">Projects</a>
+        <a href="apply.html" class="hover:text-blue-600">Apply</a>
+        <a href="newspaper.html" class="text-blue-600 font-semibold">Newspaper</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="max-w-4xl mx-auto py-16 px-6">
-    <h2 class="text-3xl font-bold mb-4">Monthly STEM Newspaper</h2>
-    <p class="mb-4">Each month, we publish exciting news, student features, upcoming events, and innovations in STEM. Check out our latest issues below.</p>
-    <ul class="list-disc list-inside text-blue-600">
-      <li><a href="#" target="_blank">December 2025 Edition (PDF)</a></li>
-      <li><a href="#" target="_blank">November 2025 Edition (PDF)</a></li>
-      <li><a href="#" target="_blank">October 2025 Edition (PDF)</a></li>
-    </ul>
-  </main>
+  <!-- MAIN CONTENT -->
+  <section class="py-20 px-6 text-center">
+    <h1 class="text-4xl font-extrabold mb-6">NJSI Newspaper</h1>
+    <p class="max-w-3xl mx-auto text-gray-600 text-lg mb-12">
+      Read inspiring stories, project highlights, and STEM breakthroughs from our student-led community.
+      Stay informed with our monthly publication featuring articles, interviews, and innovations.
+    </p>
+
+    <!-- Sample Placeholder Section -->
+    <div class="max-w-4xl mx-auto space-y-8">
+      <div class="bg-gray-100 p-6 rounded-lg text-left">
+        <h2 class="text-2xl font-bold mb-2">🌟 December 2025 Edition</h2>
+        <p class="text-gray-700">
+          In this issue: BioTech teams push boundaries, AI Robotics teams present at expo, and spotlight on student STEM leaders shaping tomorrow.
+        </p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg text-left">
+        <h2 class="text-2xl font-bold mb-2">🧬 Featured Article: Coding with Purpose</h2>
+        <p class="text-gray-700">
+          A deep dive into how middle school students are using code to solve real-world problems — from clean water projects to accessibility apps.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t py-16">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 px-6 text-sm text-gray-600">
+      <div>
+        <div class="font-semibold text-lg mb-2">NJ STEM Innovators</div>
+        <p class="mb-4">
+          Stay updated with the latest STEM opportunities, events, and success stories from our community.
+        </p>
+        <div class="flex space-x-2">
+          <input type="email" placeholder="Enter your email"
+                 class="border px-4 py-2 rounded w-full" />
+          <button class="bg-blue-600 text-white px-4 py-2 rounded">
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="font-semibold mb-2">Get In Touch</h3>
+        <p>📧 <a href="mailto:hello@njsteminnovators.org" class="hover:underline">
+          hello@njsteminnovators.org</a></p>
+        <p class="mt-2">
+          Have questions about our programs or want to get involved?
+        </p>
+      </div>
+    </div>
+
+    <div class="text-center text-xs text-gray-400 mt-10">
+      © 2025 New Jersey STEM Innovators. All rights reserved.
+    </div>
+  </footer>
+
 </body>
 </html>
